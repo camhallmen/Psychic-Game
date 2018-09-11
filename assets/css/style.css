@@ -1,9 +1,45 @@
-#bignbold {
-    font-size: 32px;
-    font-weight: bold;
-    margin: 20px;
+body {
+    background-image: url("../images/spooky.jpg")
 }
 
-p {
+.container{
+    text-align: center;
     margin: 20px;
+    position: relative;
+    top: 30px;
+}
+
+#bignbold {
+    font-size: 64px;
+    font-weight: bold;
+    color: white;
+    margin: 60px;
+    font-family: 'Cinzel Decorative', cursive;
+    
+    background-color: rgba(0,0,0,0.5);
+    display: inline;
+    padding: 10px;
+}
+
+
+
+p {
+    margin: 30px;
+    font-size: 32px;
+    font-family: 'Cinzel Decorative', cursive;
+    color: white;
+    padding: 10px;
+}
+span {
+    background-color: rgba(0,0,0,0.5);
+}
+
+#wins {
+    color: black;
+}
+#losses {
+    color: black;
+}
+#guesses-left {
+    color: black;
 }

@@ -11,7 +11,7 @@ var guessesLeft = 9
 
 // Computer picks random letter
 var computerChoice = letters[Math.floor(Math.random() * letters.length)];
-console.log(computerChoice);
+console.log(computerChoice + " You cheater...");
 
 // Initialize Win/Loss/Guesses
 document.getElementById('wins').innerHTML = "Wins: " + wins;
@@ -45,7 +45,7 @@ document.onkeyup = function (event) {
 
         // Generate a new random letter
         computerChoice = letters[Math.floor(Math.random() * letters.length)];
-        console.log(computerChoice)
+        console.log(computerChoice + " You cheater...")
 
         // Reset the gamestate
         gameOver = false;
