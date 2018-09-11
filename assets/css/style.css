@@ -1,0 +1,9 @@
+#bignbold {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+p {
+    margin: 20px;
+}
